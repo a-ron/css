@@ -1,0 +1,32 @@
+.banner {
+    position: relative;
+    padding-bottom: 15%;
+}
+
+.bannerImg {
+    /*background-image: url();*/
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#parent-div {
+    visibility: hidden
+}
+
+#inner-div {
+    visibility: visible
+}
+.img-fixed-width{
+    height: 250px;
+    width: 800px;
+    border: 1px solid gold;
+}
+.img-size{
+    width: 800px;
+    background-image: url("../images/layer2.png");
+    background-size: 100% 100%;
+    height: auto;
+}
