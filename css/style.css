@@ -1,23 +1,8 @@
-.banner {
-    position: relative;
-    padding-bottom: 15%;
-}
-
-.bannerImg {
-    /*background-image: url();*/
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-#parent-div {
-    visibility: hidden
-}
-
-#inner-div {
-    visibility: visible
+body{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
 }
 .img-fixed-width{
     height: 250px;
@@ -25,8 +10,52 @@
     border: 1px solid gold;
 }
 .img-size{
-    width: 800px;
     background-image: url("../images/layer2.png");
-    background-size: 100% 100%;
-    height: auto;
+    background-size: cover;
+    height: 250px;
 }
+
+
+/*.expand{*/
+    /*width: 30%;*/
+    /*padding: 10px;*/
+/*}*/
+/*.expand-icon {*/
+    /*background: #f5f5f0;*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*top: 26px;*/
+    /*left: 8px;*/
+    /*color: #000;*/
+    /*z-index: 999;*/
+/*}*/
+
+.back{
+    padding: 0.5%;
+}
+.searchicon {
+    float: left;
+    margin-top: -20px;
+    position: relative;
+    top: 26px;
+    left: 8px;
+    color: #000;
+    z-index: 2;
+}
+
+.extand {
+    width: 2.4%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    /*background: #10314c;*/
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.searchicon:hover .extand-now {
+    width: 50%;
+}
+
