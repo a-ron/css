@@ -18,27 +18,14 @@
     <br>
 
     <h5>How to expand small square input box on hitting search icon in css?</h5>
-    <!--<div class="expand">-->
-        <!--<div class="expand-icon fa fa-search" id="ex-icon">-->
-            <!--<input type="text" name="search-icon" class="extand" aria-label="ex-icon" aria-hidden="true">-->
-        <!--</div>-->
+    <div class="box">
+        <div class="con-tai-ner">
+            <span class="ic-on fa fa-search"></span>
+            <input type="search" id="se-arch" name="search" placeholder="Search">
+        </div>
+    </div>
 
-    <!--</div>-->
 
-    <form class="back">
-          <span class="fa fa-search searchicon" aria-hidden="true"></span>
-        <input type="text" name="search" class="extand ">
-    </form>
 
-    <script>
-        // for the icon
-        $(".searchicon").click(function() {
-            $('.extand').toggleClass('extand-now');
-        });
-        // for the input
-        $(".extand").click(function() {
-            $('.extand').toggleClass('extand-now');
-        });
-    </script>
 </body>
 </html>
